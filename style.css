@@ -135,7 +135,8 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+
+    width: 50%; height: 100%;
 }
 
 .options{
@@ -163,6 +164,10 @@ html,body{
 }
 
 
+.aa{
+  margin-top: -30px;
+  }
+
 .escolhas:hover{
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.05);
@@ -183,14 +188,50 @@ html,body{
     }
     .escolhas{
         width: 300px;
-        height: 200px;
+        height: 100px;
  
     }
+
+    .corpo{
+      height: 96%;
+      margin: auto;
+      box-shadow: 0 0 0
+      
+  }
+
+  .textoh3{
+    font-size: 14px;
+
+  }
+
+
+
+  .telaInicial{
+       
+    width: 94%; height: auto;
+    
+  }
+
+  .card-text{
+    font-size: 13pt;
+    
+  }
+
+  .card-body{
+    width: 100%
+  }
+
+  img{
+    width: 2px;
+    height: auto;
+    max-width: 300px;
+  }
 
     .aa{
     flex-direction: column;
     }
 
+   
   }
 
   .text {
