@@ -21,7 +21,7 @@ var tela = document.getElementById('tela')
         var certoo = document.getElementById('certoo')
         var certooo = document.getElementById("certooo")
         var certoooo = document.getElementById('certoooo')
-        var errado = document.querySelector('div.escolhass')
+        var erradoV = document.querySelector('div.escolhass')
         var btn1 = document.querySelector('btn1')
         var btn2 = document.querySelector('btn2')
         var btn3 = document.querySelector('btn3')
@@ -225,11 +225,7 @@ var tela = document.getElementById('tela')
                 buttonssss.style.display = 'block';
             }
             
-            btn1.style.display = 'none';
-            btn2.style.display = 'none';
-            btn3.style.display = 'none';
-            btn4.style.display = 'none';
-
+    
             if(correto < 1){
                 img.setAttribute('src', 'images/rank1.png');
         } else if (correto == 1){
@@ -247,9 +243,10 @@ var tela = document.getElementById('tela')
 
 
         function atualizarProgresso() {
-
+console.log(correto)
+console.log(errado)
             var progressSegmentOne = document.getElementById("correto");
-            var progressSegmentTwo = document.getElementById("errado");
+            var progressSegmentTwo = document.getElementById("errado2");
     
             var widthIncrementCorreto = 25 * correto;
             var widthIncrementErrado = 25 * errado;
