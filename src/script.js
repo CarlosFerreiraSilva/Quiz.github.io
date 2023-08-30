@@ -22,6 +22,10 @@ var tela = document.getElementById('tela')
         var certooo = document.getElementById("certooo")
         var certoooo = document.getElementById('certoooo')
         var errado = document.querySelector('div.escolhass')
+        var btn1 = document.querySelector('btn1')
+        var btn2 = document.querySelector('btn2')
+        var btn3 = document.querySelector('btn3')
+        var btn4 = document.querySelector('btn4')
 
         function playErrado(){
             audioErrado.currentTime = 0.6;
@@ -221,7 +225,10 @@ var tela = document.getElementById('tela')
                 buttonssss.style.display = 'block';
             }
             
-            
+            btn1.style.display = 'none';
+            btn2.style.display = 'none';
+            btn3.style.display = 'none';
+            btn4.style.display = 'none';
 
             if(correto < 1){
                 img.setAttribute('src', 'images/rank1.png');
