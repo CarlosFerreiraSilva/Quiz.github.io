@@ -224,15 +224,15 @@ var tela = document.getElementById('tela')
             
 
             if(correto < 1){
-                img.setAttribute('src', '/images/rank1.png');
+                img.setAttribute('src', 'images/rank1.png');
         } else if (correto == 1){
-            img.setAttribute('src', '/images/rank2.jpg');
+            img.setAttribute('src', 'images/rank2.jpg');
         } else if (correto == 2){
-            img.setAttribute('src', '/images/rank3.jpg');
+            img.setAttribute('src', 'images/rank3.jpg');
         } else if (correto == 3){
-            img.setAttribute('src', '/images/rank4.jpg');
+            img.setAttribute('src', 'images/rank4.jpg');
         }else{
-            img.setAttribute('src', '/images/rank5.jpg');
+            img.setAttribute('src', 'images/rank5.jpg');
         }
             atualizarProgresso()
         }
